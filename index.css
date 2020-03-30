@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(166, 199, 219);
+}
+.heading{
+    text-align: center;
+    color:royalblue;
+}
+hr{
+    height: 4px;
+    background-color: blueviolet;
+    border:unset;
+}
+.full-board{
+    height:600px;
+    width:700px;
+    background-color: black;
+    margin-left:300px;
+    margin-top: 50px;
+    border-style:outset ;
+    border-radius: 5px;
+}
+.score-board{
+    display: flex;
+    position: relative;
+}
+.board{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    height: 400px;
+    width: 350px;
+}
+.one{
+    position: relative;
+    margin-left: 50px;
+    z-index: 1;
+}
+.dice{
+    margin-top: 225px ;
+    margin-left: 10px;
+}
+.two{
+    margin-left:10px; 
+    margin-right: 50px;
+}
+p{
+    text-align: center;
+}
+.player{
+    display: flex;
+    margin-left: 50px;
+}
+.player-name{
+    color: red;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.total-score{
+    color: red;
+    font-size: 50px;
+}
+.round-score{
+    color: saddlebrown;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.round-score-div{
+    margin-left:100px;
+    margin-top:50px;
+    background-color: orange;
+    color:black;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.buttons{
+    margin-left:175px;
+    display: flex;
+}
+.button-style{
+    margin-left:20px;
+    background-color: red;
+    border: unset;
+    border-radius: 5px;
+    color: white;
+    height:50px;
+    width:100px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.button-style:hover{
+    box-shadow: 1px 1px 1px 1px lightcoral;
+}
+.button-style:disabled{
+    background-color: lightcoral;
+}
+
+.winner{
+    background-color: purple;
+}
+
+.active{
+    background-color: rgb(224, 218, 218);
+}
+.dot-active-0{
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left:20px;
+    margin-top:33px;
+    display: inline-block;
+}
+.dot-active-1{
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left:20px;
+    margin-top:33px;
+    display: none;
+}
